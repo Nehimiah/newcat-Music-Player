@@ -69,6 +69,7 @@ export default function Artist({ id }: { id: string }) {
     <div className="flex flex-col h-screen">
       <div className="flex flex-1 overflow-hidden pt-16">
         <Sidebar />
+        <div className="h-full w-px bg-neutral-800" />
         <div className="flex-1 bg-black p-5 text-white overflow-y-auto">
           <div className="flex items-center gap-4 mb-6">
             {artistImage && (
