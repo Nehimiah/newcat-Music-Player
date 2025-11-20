@@ -16,9 +16,9 @@ const MOCK_SONGS = [
     },
     albumName: "After Hours",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-50x50.jpg", url: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-150x150.jpg", url: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-500x500.jpg", url: "https://c.saavncdn.com/191/Blinding-Lights-English-2019-20191129024805-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" }
     ],
     downloadUrl: [
       { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/The%20Weeknd%20-%20Blinding%20Lights.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/The%20Weeknd%20-%20Blinding%20Lights.mp3" },
