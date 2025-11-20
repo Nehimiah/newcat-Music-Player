@@ -54,8 +54,8 @@ export default function Header() {
         <Image
           src="https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/WhmnOrkK-removebg-preview.png"
           alt="Newcat Logo"
-          width={140}      // ← adjust size if needed
-          height={40}
+          width={120}      // ← adjust size if needed
+          height={20}
           priority
         />
       </Link>
