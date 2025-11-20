@@ -39,7 +39,7 @@ export default function LoginPage() {
         {/* Logo / Title */}
         <div className="text-center">
           <h1 className="text-white font-extrabold text-3xl">
-            Welcome to Spring
+            Welcome to Ncplay
           </h1>
           <p className="text-sm text-neutral-400">Sign in to continue</p>
         </div>
