@@ -27,10 +27,10 @@ export default function Sidebar() {
           Liked Songs
         </Link>
         <Link href="#" className="hover:text-pink-400 transition-colors">
-          Recent
+          Earnings
         </Link>
         <Link href="#" className="hover:text-pink-400 transition-colors">
-          Playlists
+          Wallet
         </Link>
         <Link href="#" className="hover:text-pink-400 transition-colors">
           Albums
