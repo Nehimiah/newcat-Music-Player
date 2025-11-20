@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaPlay } from "react-icons/fa";
+
 interface MusicCardProps {
   imageUrl: string;
   songName: string;
@@ -16,14 +17,19 @@ export default function MusicCard({
   return (
     <div className="w-48 rounded-xl p-2 flex flex-col on items-center text-center transition-transform duration-300 hover:scale-105 group cursor-pointer">
       <div className="relative h-42 w-42 mb-2 flex items-center justify-center text-white overflow-hidden rounded-xl bg-neutral-800">
-        <Image
-          src={imageUrl}
-          alt={songName}
-          width={168}
-          height={168}
-          className="object-cover"
-        />
-
+        {imageUrl ? (
+          <img
+            src={imageUrl}
+            alt={songName}
+            width={168}
+            height={168}
+            className="object-cover w-full h-full"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center text-gray-500">
+            No Image
+          </div>
+        )}
         <div
           className="
             absolute bottom-0 left-0 right-0
@@ -38,7 +44,6 @@ export default function MusicCard({
             duration-300
           "
         />
-
         <button
           onClick={onPlayClick}
           className="
@@ -61,8 +66,8 @@ export default function MusicCard({
           <FaPlay />
         </button>
       </div>
-      <p>{songName}</p>
-      <p className="text-sm text-gray-400">{artistName}</p>
+      <p className="truncate w-full">{songName}</p>
+      <p className="text-sm text-gray-400 truncate w-full">{artistName}</p>
     </div>
   );
 }
