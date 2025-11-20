@@ -12,9 +12,12 @@ import {
 } from "@/store/features/musicPlayer/musicPlayer";
 import type { RootState } from "@/store/store";
 import MusicCardPlaceholder from "@/components/Cards/musicCardPlaceHolder";
+
 export default function Home() {
   const dispatch = useDispatch();
   const tracks = useSelector((state: RootState) => state.musicPlayer.tracks);
+
+  // --- Defensively type this state so TS doesn't infer never[]
   const [songs, setSongs] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -25,9 +28,14 @@ export default function Home() {
       setError(null);
       try {
         const data = await fetchSongs("top songs");
-        setSongs(data.songs || []);
+
+        // Defensive: data.songs could be an array or a single object
+        const received = data?.songs ?? [];
+        const safeArray = Array.isArray(received) ? received : [received];
+
+        setSongs(safeArray);
       } catch (err: any) {
-        setError(err.message);
+        setError(err?.message ?? "Unknown error");
       } finally {
         setLoading(false);
       }
@@ -47,11 +55,13 @@ export default function Home() {
       console.warn("No audio URL found for track:", track);
       return;
     }
+
     const updatedTracks = [...tracks, track];
     dispatch(setTracks(updatedTracks));
     dispatch(setCurrentTrackIndex(updatedTracks.length - 1));
     dispatch(play());
   };
+
   return (
     <div className="flex flex-col h-screen">
       <div className="flex flex-1 overflow-hidden pt-16">
@@ -72,16 +82,29 @@ export default function Home() {
                   const artistName = decode(
                     song.artists?.primary?.[0]?.name || "Unknown Artist"
                   );
+
+                  // Play-button inside the MusicCard still uses this:
                   const handlePlayClick = (e: React.MouseEvent) => {
                     e.stopPropagation();
                     handleSongClick(song);
                   };
+
+                  // Wrap the card so taps on the whole card trigger playback immediately.
+                  // This ensures mobile counts the gesture.
                   return (
-                    <div key={song.id}>
+                    <div
+                      key={song.id ?? song.name ?? Math.random()}
+                      // laptop click
+                      onClick={() => handleSongClick(song)}
+                      // mobile touch
+                      onTouchStart={() => handleSongClick(song)}
+                      className="cursor-pointer"
+                    >
                       <MusicCard
                         imageUrl={imageUrl}
                         songName={songName}
                         artistName={artistName}
+                        // keep your existing play button behavior too
                         onPlayClick={handlePlayClick}
                       />
                     </div>
