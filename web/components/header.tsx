@@ -46,16 +46,20 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-neutral-800 bg-black/70 backdrop-blur-md shadow-lg">
-      <div className="container mx-auto flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
-        {/* Logo */}
-        <div className="flex-1 text-left">
-          <h1 className="text-[#F695C5] text-xl sm:text-2xl font-extrabold tracking-tighter">
-            <Link href="/" className="hover:opacity-80 transition-opacity">
-              Spring
-            </Link>
-          </h1>
-        </div>
+<header className="fixed top-0 z-50 w-full border-b border-neutral-800 bg-black/70 backdrop-blur-md shadow-lg">
+  <div className="container mx-auto flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
+    {/* Logo */}
+    <div className="flex-1 text-left">
+      <Link href="/" className="hover:opacity-80 transition-opacity flex items-center">
+        <Image
+          src="https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/WhmnOrkK-removebg-preview.png"
+          alt="Newcat Logo"
+          width={140}      // ← adjust size if needed
+          height={40}
+          priority
+        />
+      </Link>
+    </div>
 
         {/* Search Bar */}
         <div className="flex-1 flex justify-center">
