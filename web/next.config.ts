@@ -19,6 +19,12 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.jiosaavn.com",
       },
+
+      // 👇 Add your R2 storage hostname
+      {
+        protocol: "https",
+        hostname: "pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev",
+      },
     ],
   },
 };
