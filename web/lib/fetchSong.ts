@@ -46,16 +46,16 @@ const MOCK_SONGS = [
     },
     albumName: "Divide",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/243/Divide-English-2017-50x50.jpg", url: "https://c.saavncdn.com/243/Divide-English-2017-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/243/Divide-English-2017-150x150.jpg", url: "https://c.saavncdn.com/243/Divide-English-2017-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/243/Divide-English-2017-500x500.jpg", url: "https://c.saavncdn.com/243/Divide-English-2017-500x500.jpg" }
+      { quality: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/shape%20of%20you.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/ed_sheeran_-_shape_of_you_(zf.fm).mp3" }
     ],
     duration: 233,
     year: "2017"
@@ -76,16 +76,16 @@ const MOCK_SONGS = [
     },
     albumName: "Future Nostalgia",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-50x50.jpg", url: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-150x150.jpg", url: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-500x500.jpg", url: "https://c.saavncdn.com/069/Future-Nostalgia-English-2020-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/levitating.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/18.%20Levitating%20(feat.%20DaBaby).mp3" }
     ],
     duration: 203,
     year: "2020"
@@ -106,16 +106,16 @@ const MOCK_SONGS = [
     },
     albumName: "After Hours",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/After-Hours-English-2020-50x50.jpg", url: "https://c.saavncdn.com/191/After-Hours-English-2020-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/After-Hours-English-2020-150x150.jpg", url: "https://c.saavncdn.com/191/After-Hours-English-2020-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/After-Hours-English-2020-500x500.jpg", url: "https://c.saavncdn.com/191/After-Hours-English-2020-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/blinding%20lights.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The-Weeknd-Save-Your-Tears-320.mp3" }
     ],
     duration: 215,
     year: "2020"
@@ -136,16 +136,16 @@ const MOCK_SONGS = [
     },
     albumName: "Justice",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/Justice-English-2021-50x50.jpg", url: "https://c.saavncdn.com/191/Justice-English-2021-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/Justice-English-2021-150x150.jpg", url: "https://c.saavncdn.com/191/Justice-English-2021-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/Justice-English-2021-500x500.jpg", url: "https://c.saavncdn.com/191/Justice-English-2021-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/peaches.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/Peaches%20-%20Justin%20Bieber.mp3" }
     ],
     duration: 198,
     year: "2021"
@@ -166,16 +166,16 @@ const MOCK_SONGS = [
     },
     albumName: "SOUR",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/SOUR-English-2021-50x50.jpg", url: "https://c.saavncdn.com/191/SOUR-English-2021-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/SOUR-English-2021-150x150.jpg", url: "https://c.saavncdn.com/191/SOUR-English-2021-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/SOUR-English-2021-500x500.jpg", url: "https://c.saavncdn.com/191/SOUR-English-2021-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/images.png" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/olivia_rodrigo_%E2%80%93_good_4_u_(live_from_SOUR_prom)(128kbps).mp3" }
     ],
     duration: 178,
     year: "2021"
@@ -196,16 +196,16 @@ const MOCK_SONGS = [
     },
     albumName: "Stay",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/Stay-English-2021-50x50.jpg", url: "https://c.saavncdn.com/191/Stay-English-2021-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/Stay-English-2021-150x150.jpg", url: "https://c.saavncdn.com/191/Stay-English-2021-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/Stay-English-2021-500x500.jpg", url: "https://c.saavncdn.com/191/Stay-English-2021-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/stay.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/The%20Kid%20LAROI%20-%20STAY%20Ft.%20Justin%20Bieber.mp3" }
     ],
     duration: 141,
     year: "2021"
@@ -226,16 +226,16 @@ const MOCK_SONGS = [
     },
     albumName: "Dreamland",
     image: [
-      { quality: "50x50", link: "https://c.saavncdn.com/191/Dreamland-English-2020-50x50.jpg", url: "https://c.saavncdn.com/191/Dreamland-English-2020-50x50.jpg" },
-      { quality: "150x150", link: "https://c.saavncdn.com/191/Dreamland-English-2020-150x150.jpg", url: "https://c.saavncdn.com/191/Dreamland-English-2020-150x150.jpg" },
-      { quality: "500x500", link: "https://c.saavncdn.com/191/Dreamland-English-2020-500x500.jpg", url: "https://c.saavncdn.com/191/Dreamland-English-2020-500x500.jpg" }
+      { quality: "50x50", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg" },
+      { quality: "150x150", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg" },
+      { quality: "500x500", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/glass-animals-heat-waves-Cover-Art.jpg" }
     ],
     downloadUrl: [
-      { quality: "12kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
-      { quality: "48kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
-      { quality: "96kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
-      { quality: "160kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
-      { quality: "320kbps", link: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" }
+      { quality: "12kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac" },
+      { quality: "48kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac" },
+      { quality: "96kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac" },
+      { quality: "160kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac" },
+      { quality: "320kbps", link: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac", url: "https://pub-165f4a9e47204c94accfb4e1bb86c985.r2.dev/newcat/1.%20Glass%20Animals%20-%20Heat%20Waves%20(FLAC).flac" }
     ],
     duration: 238,
     year: "2020"
